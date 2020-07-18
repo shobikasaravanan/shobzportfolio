@@ -1,0 +1,78 @@
+# baseURL = "http://example.org/"
+# languageCode = "en-us"
+# title = "My New Hugo Site"
+# theme = "anatole"
+baseURL = "https://shobz.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of shobika"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "I am Shobz"
+author = "Shobika Saravanan"
+description = "Portfolio"
+profilePicture = "images/you.png"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/shobika-saravanan-00643612a/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/shobikasaravanan"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/shobikaaaaaa/?hl=en"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "twitter"
+url = "mailto:mail@alexbilz.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Projects"
+  weight = 200
+  identifier = "projects"
+  url = "/projects/"
+
+  [[menu.main]]
+  name = "My Life"
+  weight = 300
+  identifier = "life"
+  url = "/life/"

@@ -1,0 +1,9 @@
+[submodule "hugo-myportfolio-theme"]
+	path = hugo-myportfolio-theme
+	url = https://github.com/2-REC/hugo-myportfolio-theme.git
+[submodule "parsa-hugo"]
+	path = parsa-hugo
+	url = https://github.com/themefisher/parsa-hugo.git
+[submodule "themes/parsa-hugo"]
+	path = themes/parsa-hugo
+	url = https://github.com/themefisher/parsa-hugo.git
